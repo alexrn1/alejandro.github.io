@@ -4,6 +4,7 @@ title: "Cómo instalar LaTeX"
 ---
 
 LaTeX es un sistema de composición de textos, orientado a la creación de documentos escritos que presenten una alta calidad tipográfica. 
+En este blog se trata los pasos a seguir para instalar LaTeX en **Windows** y **MacOS** y se muestra una alternativa a poder usarlo sin necesidad de instalarlo(**Online**).
 
 ## Windows
 Para instalar LaTeX necesitas instalar dos componentes:
@@ -23,26 +24,26 @@ Nota: El archivo protext contiene todos los archivos que se necesitan para insta
 2. Doble clik en Setup, selecionar Language: English
 
 3. Click en MiKTeX: Install
-  1. Click en _I accept the MiKTeX conditions_
-  2. Click en Next
-  3. Click en Next
-  4. Click en Next
-  5. Click en Next
-  6. Click en Start
-  7. Click en Next
-  8. Click en Next
-  9. Click en Close
+    1. Click en _I accept the MiKTeX conditions_
+    - Click en Next
+    - Click en Next
+    - Click en Next
+    - Click en Next
+    - Click en Start
+    - Click en Next
+    - Click en Next
+    - Click en Close
 
 4. Click en TeXstudio: Install
-  1. Install
-  2. Close
+    - Install
+    - Close
 
 5. Exit proTeXt
 
 
 Para probar que la instalación se haya hecho correctamente:
-1. Crear una carpeta en el escritorio 
-2. Abrir TeXstudio y pegar lo siguiente
+* Crear una carpeta en el escritorio 
+* Abrir TeXstudio y pegar lo siguiente
 
 ```
 \documentclass{article}
@@ -55,14 +56,18 @@ Mi primer documento en LaTeX.
 
 \end{document}
 ```
+Guardar el documento en la carpeta previamente creada en el escritorio. 
+* Click en *Herramientas*. 
+* Click en *Compilar y ver*
 
+Nota: Por cada documento a crear en LaTeX se debe crear una carpeta para mantener un orden y evitar errores por los documentos que se generan al compilar el documento.
 ## MacOS
 Descargar el archivo [MacTeX](http://tug.org/mactex/mactex-download.html). 
 Después de la descarga, haga doble clic en MacTeX.pkg para instalarlo. Siga las instrucciones sencillas. La instalación en un Macintosh reciente toma unos diez minutos. MacTeX instala TeX Live (la distribución de Tex) y el editor TeXShop.
 
 Para probar que la instalación se haya hecho correctamente:
-1. Crear una carpeta en el escritorio 
-2. Abrir TeXShop y pegar lo siguiente:
+* Crear una carpeta en el escritorio 
+* Abrir TeXShop y pegar lo siguiente:
 
 ```
 \documentclass{article}
@@ -75,6 +80,11 @@ Mi primer documento en LaTeX.
 
 \end{document}
 ```
+Guardar el documento en la carpeta previamente creada en el escritorio. 
+
+* Click en *Componer*. 
+
+Nota: Por cada documento a crear en LaTeX se debe crear una carpeta para mantener un orden y evitar errores por los documentos que se generan al compilar el documento.
 
 ## Online
 Trabaja desde cualquier lugar, sin necesidad de instalar nada, accede a tu trabajo desde cualquier parte del mundo con 
